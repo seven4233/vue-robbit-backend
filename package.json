@@ -1,0 +1,22 @@
+{
+  "name": "vue-robbit-backend",
+  "version": "1.0.0",
+  "description": "小兔鲜项目后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "koa": "^2.14.2",
+    "prisma": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
