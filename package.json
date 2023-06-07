@@ -4,6 +4,7 @@
   "description": "小兔鲜项目后端",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node-dev src/app/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,8 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^4.15.0",
+    "@types/koa": "^2.13.6",
+    "@types/koa-router": "^7.4.4",
+    "@types/require-directory": "^2.1.2",
     "koa": "^2.14.2",
-    "prisma": "^4.15.0"
+    "koa-router": "^12.0.0",
+    "prisma": "^4.15.0",
+    "require-directory": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
