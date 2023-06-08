@@ -5,7 +5,10 @@ import userController from '../../src/controller/user.controller'
 const userRouter = new Router({prefix: '/user'})
 // 测试接口
 userRouter.get('/test', async (ctx: MyContext)=>{
-    ctx.body = '测试接口'
+    ctx.body = {
+        code: 200,  
+        msg: "测试接口!"
+    }
 })
 
 // 注册用户接口
